@@ -1,3 +1,3 @@
 # order-app
-order api microservice
+order app as a microservice
 
