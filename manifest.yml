@@ -1,0 +1,10 @@
+---
+applications:
+- name: order-api
+  command: node app.js
+  memory: 256M 
+  instances: 3
+  host: order-api
+  services:
+   - cassandraOrder
+   - payment-broker
