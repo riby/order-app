@@ -226,7 +226,7 @@ shipping_address_postal_code : node.shipping_address_postal_code,billing_address
              }
     });
 });
-
+//Code Block
 /*
 app.get('/getallorderswith/:status', function(req, res) {
   var getAllOrders = 'SELECT * FROM '+keyspace_name+'.order_info';
