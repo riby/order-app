@@ -226,6 +226,8 @@ shipping_address_postal_code : node.shipping_address_postal_code,billing_address
              }
     });
 });
+
+/*
 //Code Block
 
 app.get('/getallorderswith/:status', function(req, res) {
@@ -247,7 +249,7 @@ app.get('/getallorderswith/:status', function(req, res) {
              }
     });
 });
-
+*/
 
 app.all("/", function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
