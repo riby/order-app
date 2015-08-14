@@ -229,7 +229,7 @@ shipping_address_postal_code : node.shipping_address_postal_code,billing_address
 
 
 //Code Block change
-
+/*
 app.get('/getallorderswith/:status', function(req, res) {
   var getAllOrders = 'SELECT * FROM '+keyspace_name+'.order_info';
   var st=req.params.status;
@@ -249,7 +249,7 @@ app.get('/getallorderswith/:status', function(req, res) {
              }
     });
 });
-
+*/
 
 app.all("/", function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
